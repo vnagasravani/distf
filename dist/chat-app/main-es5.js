@@ -2827,7 +2827,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }; // end exit socket
 
 
-      this.socket = socket_io_client__WEBPACK_IMPORTED_MODULE_2__('http://localhost:3000');
+      this.socket = socket_io_client__WEBPACK_IMPORTED_MODULE_2__('http://ec2-18-219-5-23.us-east-2.compute.amazonaws.com:3000');
     };
 
     SocketserviceService.ctorParameters = function () {
